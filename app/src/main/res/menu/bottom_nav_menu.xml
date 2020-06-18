@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_proizvodi"
+        android:icon="@drawable/ic_reorder_24px"
+        android:title="Proizvodi"
+        />
+    <item
+        android:id="@+id/navigation_dodaj_proizvod"
+        android:icon="@drawable/ic_add_box_24px"
+        android:title="Dodaj Proizvod"
+        />
+    <item
+        android:id="@+id/navigation_izmeni_proizvod"
+        android:icon="@drawable/ic_add_box_24px"
+        android:title="Izmeni Proizvod"
+        />
+    <item
+        android:id="@+id/navigation_pregledaj_korpu"
+        android:icon="@drawable/ic_reorder_24px"
+        android:title="Korpa"
+        />
+    <item
+        android:id="@+id/navigation_pregledaj_narudzbine"
+        android:icon="@drawable/ic_reorder_24px"
+        android:title="Narudzbine"
+        />
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/nazivProizvoda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Naziv Proizvoda"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+ />
+
+    <EditText
+        android:id="@+id/Cena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Cena"
+        android:inputType="number"
+ />
+
+    <EditText
+        android:id="@+id/Vreme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Vreme za dostavu"
+        android:inputType="number"
+ />
+
+    <EditText
+        android:id="@+id/Kolicina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Kolicina"
+        android:inputType="number"
+ />
+
+    <Spinner
+        android:id="@+id/Drzava"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="152dp" />
+
+    <Button
+        android:id="@+id/dodajProizvod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="Dodaj oglas"
+ />
+
+
+</LinearLayout>
